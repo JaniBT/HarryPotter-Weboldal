@@ -1,0 +1,31 @@
+body{
+    color: #000;
+    background-color: #fff;
+}
+
+.navbar-brand{
+    white-space: normal;
+}
+
+.nav-focim{
+    font-family: poppins;
+    font-weight: 900;
+    font-size: xx-large;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.nav-szoveg{
+    font-family: poppins;
+    font-weight: 900;
+}
+
+.nav-link{
+    font-family: poppins;
+    font-weight: 900;
+}
+
+.logokep{
+    width: 20px;
+    height: 20px;
+}
