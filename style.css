@@ -25,6 +25,7 @@
 }
 
 .informacio-szoveg{
+    font-size: 2.7vmin;
     color: #fff;
     font-family: 'Poppins', sans-serif;
 }
@@ -39,6 +40,7 @@
 }
 
 h6{
+    font-size: 2vmin;
     font-family: 'Poppins', sans-serif;
     margin-top: 100px;
     text-align: center;
@@ -55,18 +57,14 @@ h6{
 .nav-focim{
     color: #fff;
     font-family: 'Harry Potter', sans-serif;
-    font-size: 50px;
+    font-size: 8vmin;
     letter-spacing: 5px;
     text-transform: uppercase;
     user-select: none;
 }
 
-.nav-szoveg{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 900;
-}
-
 .nav-link{
+    font-size: 2.5vmin;
     transition: all ease-in-out 0.3s;
     color: #fff;
     font-family: 'Poppins', sans-serif;
@@ -74,6 +72,7 @@ h6{
 }
 
 .informacio-fo-szoveg{
+    font-size: 6.5vmin;
     text-transform: uppercase;
     padding-top: 65px;
     font-family: 'Poppins', sans-serif;
@@ -153,6 +152,7 @@ footer{
 }
 
 h2{
+    font-size: 5vmin;
     color: #fff;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
