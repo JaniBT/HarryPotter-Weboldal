@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Hogwarts WebPage</title>
+    <title>Roxfort Szakiskola</title>
     <link rel="icon" type="image/x-icon" href="./assets/hogwarts-seeklogo.svg">
 </head>
 <body>
@@ -18,12 +19,13 @@
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
             </div>
             <div class="toast-body">
-            Szia, üdvözöllek a weboldalon! Az elszaporodott bagoly problémák után, szerettük volna megújítani a kommunikációs lehetőségeket, így létrehoztuk az Iskola weboldalát.
+            Szia, üdvözöllek a weboldalon! Az elszaporodott bagoly problémák után, szerettük volna megújítani a kommunikációs lehetőségeket, így létrehoztuk az Iskola weboldalát és pár szociális média felületen is megtalálsz bennünket.
             </div>
         </div>
     </div>
     
-    <!-- ^Fent a betöltésnél megjelenő Toaster -->
+    <!-- Fent a betöltésnél megjelenő Toaster -->
+    <!-- Míg alul a főoldal címrésze -->
     
     <div class="background-container">
       <div class="content-container">
@@ -69,28 +71,56 @@
       </div>
     </div>
 
-    <div class="container-fluid oli-vander">
-      <div class="content-containersecond">
-        <h1 class="nav-focim">Mr. Ollivander's Wands</h1>
-        <a href="olivander.html" class="button-31">További Információ</a>      
-      </div>
-    </div>
-    
+    <!-- Információk az iskoláról -->
+
     <div class="container-fluid informacio-iskola">
       <div class="content-containersecond">
         <h1 class="informacio-fo-szoveg">Információk az iskolánkról</h1>
       </div>
-      <div class="container-fluid">
+      <div class="container-fluid w-75 mt-5">
         <div class="row">
-          <div class="col-lg-6">
-
+          <div class="col-lg-6 mr-4 mb-4 border-end border-secondary">
+            <h2 class="mb-4">A beiratkozás folyamata</h2>
+            <p class="informacio-szoveg">A Beiratkozás folyamata szokás szerint történik, mint mindig, a felvételt nyert tanulókat, a Bagoly Posta fogja értesíteni. (<strong><i><i class="fa fa-info-circle"></i> Tájékoztatjuk önöket, hogy ha az első értesítés utáni 72 órán belül nem érkezik válasz, újbóli felhívást kézbesítünk, ha viszont arra sem érkezik válasz, a felvételi folyamatokat lezárjuk, és legközelebb csak az első félévben lehet újból jelentkezni.</i></strong>) Jelentkezésüket személyesen, illetve az alábbi linken fogadjuk: <a href="#" target="_blank">jelentkezés</a></p>
           </div>
-          <div class="col-lg-6">
-            
+          <div class="col-lg-6 ml-4 mb-4 border-start border-secondary">
+            <h2 class="mb-4 text-end">A tanév kezdete</h2>
+            <p class="informacio-szoveg text-end">A tanév kezdete az elsőéveseknek szokott lenni a legvártabb dolog, ugyanis ekkor mondja meg a híresneves Teszlek Süveg a diákoknak, melyik házba fognak kerülni. És nyugodjatok meg újoncok, a Süveg figyelembe veszi a vágyaitokat is! Az iskola kollégiumi lakhatást és étkezést kínál minden diákjának. Téli szünetben és Nyári szünetben a diákok elhagyják az iskolát. A tanulók egyenruhát kapnak, amit hordaniuk Kell. Bővebb információt erről, a beiratkozás során kapnak.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <h6>Fedezd fel a Roxfort Iskola csodálatos világát, ahol az álmok, a barátságok és a varázslat örökkévaló élményekké válnak.</h6>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- Ollivander Pálcái Alrész -->
+
+    <div class="container-fluid oli-vander">
+      <div class="content-containersecond">    
+        <h1 class="nav-focim">Mr. Ollivander's Wands</h1>
+        <a href="olivander.html" class="button-31">További Információ</a>      
+      </div>
+    </div>
+
+    <!-- Footer rész -->
+
+    <footer>
+      <div class="footer-content">
+        <h3>Roxfort Szakiskola</h3>
+        <p>Vegye fel velünk a kapcsolatot:</p>
+        <p><i class="fa fa-phone"></i> +69 420 6969</p>
+        <ul class="socials" style="padding-left: 0rem;">
+          <li><a href="https://www.facebook.com/harrypotter" target="_blank"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://www.instagram.com/harrypotter/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="https://www.youtube.com/@harrypotter" target="_blank"><i class="fa fa-youtube"></i></a></li>
+          <li><a href="https://twitter.com/harrypotter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        </ul>
+        <p>&copy;Copyright 2024: Minden jog fenntartva.</p>
+      </div>
+    </footer>
       
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

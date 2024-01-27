@@ -19,13 +19,33 @@
 
 .informacio-iskola{
     background: #222 center/cover no-repeat fixed;
-    height: 100vh;
+    height: 100%;
     align-items: center;
     justify-content: center;
 }
 
+.informacio-szoveg{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.informacio-szoveg a{
+    color: #fff;
+    font-style: italic;
+}
+
 .content-containersecond{
     text-align: center;
+}
+
+h6{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 15px;
 }
 
 .navbar-brand{
@@ -54,7 +74,8 @@
 }
 
 .informacio-fo-szoveg{
-    padding-top: 75px;
+    text-transform: uppercase;
+    padding-top: 65px;
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
     color: #fff;
@@ -121,4 +142,53 @@
     background-color: #222;
     color: #fff;
     text-decoration: none;
+}
+
+footer{
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 30px;
+    color: #fff;
+}
+
+h2{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: #1DA1F2;
 }
