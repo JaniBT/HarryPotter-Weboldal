@@ -59,11 +59,10 @@ const cheat_list = [72, 69, 83, 79, 89, 65, 77];
 let megnyomt_gombok = []; 
 
 function billentyukombinacio() {
-  if (megnyomt_gombok.length === 7 && megnyomt_gombok.join('') !== cheat_list.join('')) {
-    megnyomt_gombok = [];
-  }
   if (megnyomt_gombok.join('') === cheat_list.join('')) {
     alert("Csalás aktiválva!");
+    megnyomt_gombok = [];
+  } else if (megnyomt_gombok.length === 7 && megnyomt_gombok.join('') !== cheat_list.join('')) {
     megnyomt_gombok = [];
   }
 }
