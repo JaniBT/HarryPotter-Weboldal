@@ -192,3 +192,50 @@ h2{
 .socials a:hover i{
     color: #1DA1F2;
 }
+
+/* Olivander.html */
+
+.bodza-palca{
+    background: url('./assets/the-elder-wand.png') center/cover no-repeat fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#szoveg-alatti-bekezdes{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 3vmin;
+}
+
+.bodza-palca-info{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 2.8vmin;
+    color: #fff;
+    background: #222;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+.tortenete-fo-szoveg{
+    font-size: 6.5vmin;
+    text-transform: uppercase;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    color: #fff;
+}
+
+.figure{
+    text-align: center;
+}
+
+.figure-caption{
+    color: #fff;
+    font-size: 2vmin;
+}
