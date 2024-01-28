@@ -15,7 +15,7 @@
             <div class="toast-header">
             <img src="./assets/hogwarts-seeklogo.svg" class="logokep rounded me-2" alt="hogwarts">
             <strong class="me-auto">Roxfort Posta</strong>
-            <small>Nemrég</small>
+            <small>Most</small>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
             </div>
             <div class="toast-body">
@@ -27,7 +27,7 @@
     <!-- Fent a betöltésnél megjelenő Toaster -->
     <!-- Míg alul a főoldal címrésze -->
     
-    <div class="background-container">
+    <div class="background-container" id="oldal-teteje">
       <div class="content-container">
         <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
@@ -81,7 +81,13 @@
         <div class="row">
           <div class="col-lg-6 mr-4 mb-4 border-end border-secondary">
             <h2 class="mb-4">A beiratkozás folyamata</h2>
-            <p class="informacio-szoveg">A Beiratkozás folyamata szokás szerint történik, mint mindig, a felvételt nyert tanulókat, a Bagoly Posta fogja értesíteni. (<strong><i><i class="fa fa-info-circle"></i> Tájékoztatjuk önöket, hogy ha az első értesítés utáni 72 órán belül nem érkezik válasz, újbóli felhívást kézbesítünk, ha viszont arra sem érkezik válasz, a felvételi folyamatokat lezárjuk, és legközelebb csak az első félévben lehet újból jelentkezni.</i></strong>) Jelentkezésüket személyesen, illetve az alábbi linken fogadjuk: <a href="#" target="_blank">jelentkezés</a></p>
+            <p class="informacio-szoveg">A Beiratkozás folyamata szokás szerint történik, mint mindig, a felvételt nyert tanulókat, a Bagoly Posta fogja értesíteni. (<strong><i><i class="fa fa-info-circle"></i> Tájékoztatjuk önöket, hogy ha az első értesítés utáni 72 órán belül nem érkezik válasz, újbóli felhívást kézbesítünk, ha viszont arra sem érkezik válasz, a felvételi folyamatokat lezárjuk, és legközelebb csak az első félévben lehet újból jelentkezni.</i></strong>) Jelentkezésüket személyesen, illetve az alábbi linken fogadjuk: <a class="icon-link icon-link-hover" href="#">
+              <i>jelentkezés</i><i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5"/>
+                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+              </svg></i>
+              <svg class="bi" aria-hidden="true"><use xlink:href="#arrow-right"></use></svg>
+            </a></p>
           </div>
           <div class="col-lg-6 ml-4 mb-4 border-start border-secondary">
             <h2 class="mb-4 text-end">A tanév kezdete</h2>
@@ -118,6 +124,7 @@
           <li><a href="https://www.youtube.com/@harrypotter" target="_blank"><i class="fa fa-youtube"></i></a></li>
           <li><a href="https://twitter.com/harrypotter" target="_blank"><i class="fa fa-twitter"></i></a></li>
         </ul>
+        <a class="teto-gomb mb-4" href="#oldal-teteje">Vissza a tetejére</a>
         <p>&copy;Copyright 2024: Minden jog fenntartva.</p>
       </div>
     </footer>
