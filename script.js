@@ -8,7 +8,7 @@ function masolas() {
   alert("Látom mit csinálsz, hisz ez egy varázslatos weboldal!");
 }
 
-document.getElementById('footer-szo').addEventListener('copy', masolas);
+document.body.addEventListener('copy', masolas);
 
 function tulajdonosoklista() {
 
