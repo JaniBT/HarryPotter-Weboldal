@@ -300,3 +300,11 @@ h2{
     width: 100%;
     height: auto;
 }
+
+.jelentkezes-fo-resz{
+    background: url('./assets/jelentkezes-background.png') center/cover no-repeat fixed;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
