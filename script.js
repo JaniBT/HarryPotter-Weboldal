@@ -11,7 +11,7 @@ function masolas() {
 document.body.addEventListener('copy', masolas);
 
 function tulajdonosoklista() {
-
+  
   const x = document.getElementById("lista-gomb");
   if (x.innerHTML === "Lista Megtekintése") {
     x.innerHTML = "Lista Eltávolítása";
