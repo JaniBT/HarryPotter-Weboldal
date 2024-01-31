@@ -365,3 +365,8 @@ h2{
     text-decoration: none;
     background-color: #111111;
 }
+
+.legendas-focim{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
