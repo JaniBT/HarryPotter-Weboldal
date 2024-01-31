@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="./assets/hogwarts-seeklogo.svg">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <title>Roxfort - Mágia és Iskola történet</title>
 </head>
 <body>
@@ -32,19 +35,19 @@
                 <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">          
                     <li class="nav-item">
-                      <a class="nav-link" href="index.html">Kezdőlap</a>
+                      <a class="nav-link navigacios-link" href="index.html">Kezdőlap</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Legendás Állatok</a>
+                      <a class="nav-link navigacios-link" href="#">Legendás Állatok</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Tanáraink</a>
+                        <a class="nav-link navigacios-link" href="#">Tanáraink</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Legnépszerűbb Varázsigék</a>
+                        <a class="nav-link navigacios-link" href="#">Legnépszerűbb Varázsigék</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Óráink</a>
+                        <a class="nav-link navigacios-link" href="#">Óráink</a>
                     </li>
                   </ul>
                 </div>
@@ -55,14 +58,69 @@
       </div>
 
     <div class="container-fluid magia-iskola-tortenet-blokk">
-        <div class="container-fluid">
+        <div class="container-fluid pt-4">
             <div class="row">
-                <div class="col-lg-6 mb-4">
-                    <h1 class="text-center tortenete-fo-szoveg">Az Iskolánk Története</h1>
-
+                <div class="col-lg-6 mb-4 magia-tortenet border-end border-4">
+                    <h1 class="text-center tortenete-fo-szoveg">Iskola Története</h1>
+                    <ul class="nav justify-content-center pb-4">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle lenyilosav-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Menüválasztó</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#alapitas">Alapítás</a></li>
+                                <li><a class="dropdown-item" href="#roxfort-elso-evei">Roxfort első évei</a></li>
+                                <li><a class="dropdown-item" href="#tantargyak">Tantárgyak</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#tanarok">Tanárok</a></li>
+                                <li><a class="dropdown-item" href="#elso-eredmenyek">Első eredmények</a></li>
+                                <li><a class="dropdown-item" href="#mardekar-tavozasa">Mardekár távozása</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <h2 class="text-center" id="alapitas">Alapítás</h2>
+                    <p>A Roxfort 1006-ban alapította a kor négy legnagyobb varázslója:
+                        Griffendél Godrik, Hugrabug Helga, Hollóháti Hedvig és Mardekár
+                        Malazár. Az alapítás dátuma nem véletlenszerű, hanem pontosan
+                        kiszámított volt...
+                        Az alapítók közül Hollóháti Hedvig jeleskedett az asztronómia, és
+                        számmisztika tudományában, és ő tervezte el az alapítás dátumát. Az
+                        1006, vagyis 1+0+0+6=7-tel, és a 7, mint legmágikusabb szám már eleve
+                        elég erőt adott volna egy ilyen nagyságú intézmény megalapításához, de
+                        az alapítók még arra is ügyeltek, hogy a Roxfort alapköveit március 21-
+                        én rakják le. Március 21-e a tavaszi napforduló, és ez az év legerősebb
+                        napja. Az építkezés egy évig tartott, mivel szinte mindent
+                        bűbájjalcsináltak. Bár a Roxfort mellett már alapításkor is létezett a
+                        Roxmorts nevű kis falu, és ezt is ellátták bizonyos mugliriasztó
+                        bűbájokkal, az alapítóknak ez sem volt elég. A Roxfortra még több
+                        mugliriasztó bűbájt (például: aki arra járt, hirtelen valami fontos dolga
+                        akadt, vagy egy különösen veszélyes táblával ellátott romot talált)
+                        hoppanálást és dehoppanálást gátló bűbájokkal, és egyéb varázslatokkal
+                        is.</p>
+                    <h2 class="text-center pt-2" id="roxfort-elso-evei">A Roxfort első évei</h2>
+                    <p>A Roxfort 1007-ben kezdte meg működését. A diákok száma már az első alkalommal is nagyon
+                        magas volt. A Roxfort egyik különlegessége volt, hogy már az első alkalommal is járhattak
+                        mugli gyerekek. Az iskola első igazgatója Griffendél Godrik volt. Az igazgatóhelyettes pedig
+                        Hollóháti Hedvig lett.</p><h2 class="text-center pt-2" id="tantargyak">Tantárgyak</h2>
+                    <p>A Roxfort első éveiben még nem volt ennyi tantárgy, mint manapság. Csak az
+                        akkoriban fontosnak talált tantárgyakat oktatták. Ezek a sötét varázslatok kivédése, a
+                        bűbájtan, bájitaltan, és átváltoztatástan volt. Nem véletlenül pont ezeket a tantárgyakat
+                        tanították, ugyanis ezek a tantárgyak voltak azok, amelyek, a középkori
+                        varázslótársadalomban fontosak voltak a mindennapi élethez.</p><h2 class="text-center pt-2" id="tanarok">A tanárok</h2>
+                    <p>A sötét varázslatok kivédését Griffendél Godrik tanította, a bűbájtan Hugrabug Helga, a
+                        bájitaltant Hollóháti Hedvig, Mardekár Malazár pedig az átváltoztatástant.</p><h2 class="text-center pt-2" id="elso-eredmenyek">Az első eredmények</h2>
+                    <p>A diákok kezdetben nem a kiváló tanulmányi eredményük miatt tűntek ki. Természetesen ez
+                        nem mindig az ő hibájuk volt, mivel az iskolai rendszer nem volt még a legtökéletesebb.
+                        Azonban volt néhány kiemelkedő tanuló, akik nagy hírnevet szereztek az iskolának. Egyikük
+                        Rufus Meroland (egy mugli szármasú varázsló) fontos szerepet töltött be az akori reformációs
+                        kormányban, ugyanis államtitkárrá nevezték ki.</p><h2 class="text-center pt-2" id="mardekar-tavozasa">Mardekár távozása</h2>
+                    <p>Az igazgatóság már az alapításnál sem működött túl harmónikusan, de amikor elkezdődött a
+                        tanítás még több konfliktusuk akadt. A főproblémát az jelentette, hogy Griffendél és Mardekár
+                        igen sok dologban nem értettek egyet. Mardekár javaslata az volt, hogy az iskolát Írországban
+                        építsék föl, ám Griffendél elvetette ezt az ötletet, majd később a folyamatos problémát a mugli
+                        tanulók jelentették. Mardekár azt szerette volna, ha csak aranyvérű varázslók tanulnak az
+                        iskolában, azonban a többi tagja az igazgatóságnak támogatta a mugli gyerekek taníttatását.</p>
                 </div>
-                <div class="col-lg-6 mb-4">
-                    <h1 class="text-center tortenete-fo-szoveg">A Mágia Története</h1>
+                <div class="col-lg-6 mb-4 border-start border-4">
+                    <h1 class="text-center tortenete-fo-szoveg">Mágia Története</h1>
                 </div>
             </div>
         </div>
@@ -84,10 +142,7 @@
           <p>&copy;Copyright 2024: Minden jog fenntartva.</p>
         </div>
       </footer>
-        
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
       <script src="script.js"></script>
 </body>
 </html>
