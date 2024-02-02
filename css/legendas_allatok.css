@@ -96,17 +96,81 @@ body{
 /* Subpage */
 
 .animals-page-container{
-    background-color: #fafbfc;
-    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    height: 25vh;
 }
 
 .animals-page-container h1 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
-    color: #111111;
-    padding-bottom: 50px;
+    color: #fafbfc;
+    font-size: 75px;
+    padding-bottom: 40px;
     padding-top: 50px;
+}
+
+/* cards */
+
+:root {
+    font-size: 20px;
+}
+
+cards,
+cards:before,
+cards:after {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+}
+
+p:not(:last-child) {
+    margin-bottom: 1.5em;
+}
+
+.cards {
+    font: 1em/1.618 Inter, sans-serif;
+    text-align: center;
+    width: 100%;
+
+    min-height: 100%;
+    padding: 30px;
+    margin: 0;
+
+    color: #224;
+    background:
+            url('../assets/legendas-allatok-background.jpg')
+            center / cover no-repeat fixed;
+}
+
+.cards a {
+    text-decoration: none;
+}
+
+.card {
+    color: #fff;
+    max-width: 300px;
+    min-height: 200px;
+    margin: 20px;
+    display: inline-block;
+
+    justify-content: space-between;
+
+    max-width: 500px;
+    height: 300px;
+    padding: 35px;
+
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+    backdrop-filter: blur(15px);
 }
 
 /* Footer rész */

@@ -1,25 +1,21 @@
-const userCardTemplate = document.querySelector("[data-user-template]");
-const userCardContainer = document.querySelector("[data-user-cards-container]");
-const searchInput = document.querySelector("[data-search]");
+function myFunction() {
+    // Declare variables
+    let input, filter, table, tr, td, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("myTable");
+    tr = table.getElementsByTagName("tr");
 
-let users = []
-
-searchInput.addEventListener("input", e => {
-    const value = e.target.value.toLowerCase();
-    users.forEach(user => {
-        const isVisible = user.name.toLowerCase().includes(value) || user.email.toLowerCase().includes(value);
-        user.element.classList.toggle("hide", !isVisible);
-    })
-})
-
-fetch("https://jsonplaceholder.typicode.com/users").then(res => res.json()).then(data => {
-    users = data.map(user => {
-        const card = userCardTemplate.content.cloneNode(true);
-        const header = card.querySelector("[data-header]");
-        const body = card.querySelector("[data-body]");
-        header.textContent = user.name;
-        body.textContent = user.email;
-        userCardContainer.append(card);
-        return {name: user.name, email: user.email, element: card}
-    })
-})
+    // Loop through all table rows, and hide those who don't match the search query
+    for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[0];
+        if (td) {
+            txtValue = td.textContent || td.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+            } else {
+                tr[i].style.display = "none";
+            }
+        }
+    }
+}
