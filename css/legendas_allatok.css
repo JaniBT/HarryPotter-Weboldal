@@ -93,6 +93,22 @@ body{
     font-size: 30px;
 }
 
+/* Subpage */
+
+.animals-page-container{
+    background-color: #fafbfc;
+    height: 100%;
+}
+
+.animals-page-container h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color: #111111;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
 /* Footer rész */
 
 footer{
