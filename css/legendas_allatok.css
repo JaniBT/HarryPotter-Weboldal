@@ -100,7 +100,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #000000;
-    height: 25vh;
+    height: 100%;
 }
 
 .animals-page-container h1 {
@@ -119,9 +119,9 @@ body{
     font-size: 20px;
 }
 
-cards,
-cards:before,
-cards:after {
+.cards,
+.cards:before,
+.cards:after {
     box-sizing: border-box;
 }
 
@@ -171,6 +171,34 @@ p:not(:last-child) {
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
 
     backdrop-filter: blur(15px);
+}
+
+.card:hover{
+    transition: all 0.2s ease-out;
+    box-shadow: 0 4px 8px rgba(38, 38, 38, 0.2);
+    top: -4px;
+    border: 1px solid #cccccc;
+}
+
+/* Állatok rész */
+
+.allat-leiras-container{
+    background-color: #222;
+    color: #fafbfc;
+}
+
+.allat-leiras-container h2{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.allatok-szoveg{
+    text-align: justify;
+    font-size: 4vmin;
+    color: #fafbfc;
 }
 
 /* Footer rész */
