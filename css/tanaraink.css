@@ -146,6 +146,10 @@ body{
     overflow: hidden;
 }
 
+.content-container-second img{
+    max-height: 400px;
+}
+
 /* footer */
 
 footer{
