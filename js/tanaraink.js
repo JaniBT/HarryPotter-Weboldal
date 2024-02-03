@@ -1,17 +1,10 @@
-window.onscroll = function() {myFunction()};
-
-const navbar = document.getElementById("navbar");
-const sticky = navbar.offsetTop;
-
 function kereses() {
-    // Declare variables
     let input, filter, table, tr, td, i, txtValue;
     input = document.getElementById("keres");
     filter = input.value.toUpperCase();
     table = document.getElementById("myTable");
     tr = table.getElementsByTagName("tr");
 
-    // Loop through all table rows, and hide those who don't match the search query
     for (i = 0; i < tr.length; i++) {
         td = tr[i].getElementsByTagName("td")[0];
         if (td) {
@@ -23,4 +16,20 @@ function kereses() {
             }
         }
     }
+}
+
+const acc = document.getElementsByClassName("accordion");
+let i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+
+        let panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
 }
