@@ -39,6 +39,7 @@ body{
     margin-top: 8px;
     margin-right: 16px;
     font-size: 17px;
+    border-radius: 10px;
 }
 
 #navbar a:hover {
@@ -51,11 +52,6 @@ body{
     color: white;
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
 
 @media screen and (max-width: 600px) {
     #navbar a, #navbar input[type=text] {
@@ -68,6 +64,7 @@ body{
     }
     #navbar input[type=text] {
         border: 1px solid #ccc;
+        border-radius: 0;
     }
 }
 
@@ -105,6 +102,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+/* The sidebar menu */
+
 
 
 /* footer */
