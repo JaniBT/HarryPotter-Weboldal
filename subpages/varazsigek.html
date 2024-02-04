@@ -5,9 +5,400 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/varazsigek.css">
     <title>Varázsigék</title>
+    <link rel="icon" type="image/x-icon" href="../assets/hogwarts-seeklogo.svg">
 </head>
-<body>
-    
+<body id="oldal-teteje">
+    <div class="sidebar">
+        <a href="../index.html">Kezdőlap</a>
+        <a class="active" href="#varazslatok">Varázsigék</a>
+        <a href="#footer-szo">Rólunk</a>
+    </div>
+
+    <div class="content">
+        <div class="header">
+            <h1 id="varazslatok">Varázsigék</h1>
+        </div>
+        <div class="kereses">
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Varázslatok keresése...">
+        </div>
+        <hr>
+        <div class="varazslatok">
+            <table id="myTable">
+                <tr class="header">
+                    <th style="width:60%;">Varázsige</th>
+                    <th style="width:40%;">Leírás</th>
+                </tr>
+                <tr>
+                    <td>Feraverto</td>
+                    <td>Állatok átváltoztatása talpaspohárrá.</td>
+                </tr>
+                <tr>
+                    <td>Avada Kedavra</td>
+                    <td>Halálos átok. Nem lehet ellene védekezni, az áldozat rögtön, nyom nélkül meghal. Főbenjáró, tiltott átok. Aki használja, büntetésből egy életre Azkabanba kerül.</td>
+                </tr>
+                <tr>
+                    <td>Annullate</td>
+                    <td>A Priori Incantatem ellentéte, az előhívott varázslatok füstképét tűnteti el.</td>
+                </tr>
+                <tr>
+                    <td>Allbumm, más szóval Bazilikum</td>
+                    <td>Növesztésre alkalmas bűbáj, felgyorsítja a természetes növekedést.</td>
+                </tr>
+                <tr>
+                    <td>Alohomora</td>
+                    <td>Zárnyitó bűbáj.</td>
+                </tr>
+                <tr>
+                    <td>Arania Exhumai</td>
+                    <td>Pókot eltávolító bűbáj. Harry használja a második rész filmváltozatában, amikor az óriáspókók megtámadják őt és Ront a Tiltott Rengetegben.</td>
+                </tr>
+                <tr>
+                    <td>Avis</td>
+                    <td>Pálca hegyéből madarak röppennek elő.</td>
+                </tr>
+                <tr>
+                    <td>Braquiam Emendo</td>
+                    <td>Csonteltüntető bűbáj.</td>
+                </tr>
+                <tr>
+                    <td>Baziteo</td>
+                    <td>Mordon professzor használja egy pókon, ami hatalmas méretűre nő.</td>
+                </tr>
+                <tr>
+                    <td>Capitulatus</td>
+                    <td>Lefegyverző bűbáj.</td>
+                </tr>
+                <tr>
+                    <td>Capitullatius</td>
+                    <td>Ezzel a varázsigével Cho gyújtotta meg Marietta talárját, amikor a Capitulatust tanulták ("Izgultam, mert néztél!")</td>
+                </tr>
+                <tr>
+                    <td>Carbunculus</td>
+                    <td>A varázslat áldozatán hatalmas kelések jelennek meg.</td>
+                </tr>
+                <tr>
+                    <td>Colloportus</td>
+                    <td>Zárzáró bűbáj, az Alohomora ellentéte.</td>
+                </tr>
+                <tr>
+                    <td>Comikulissimus</td>
+                    <td>Bűbáj, amely mumusok ellen használatos.</td>
+                </tr>
+                <tr>
+                    <td>Crucio (Cruciatus)</td>
+                    <td>A kínok átka. Az átokkal sújtott vonaglani és rángatózni kezd. Főbenjáró, tiltott átok. Aki használja, büntetésből egy életre Azkabanba kerül.</td>
+                </tr>
+                <tr>
+                    <td>Csíny letudva!</td>
+                    <td>Tekergők Térképét eltünteti.</td>
+                </tr>
+                <tr>
+                    <td>Densaugeo</td>
+                    <td>A megátkozott személy fogai eredeti méretük többszörösére nőnek.</td>
+                </tr>
+                <tr>
+                    <td>Diffindo</td>
+                    <td>Táskák kiszakítására alkalmas varázslat.</td>
+                </tr>
+                <tr>
+                    <td>Dissendium</td>
+                    <td>Ezzel a varázsszóval lehet kinyitni a Roxmortsba vezető titkos alagút bejáratát.</td>
+                </tr>
+                <tr>
+                    <td>Esküszöm, hogy rosszban sántikálok!</td>
+                    <td>Tekergők Térképének kimutató varázsigéje.</td>
+                </tr>
+                <tr>
+                    <td>Exlukhops</td>
+                    <td>Lupin professzor használja; amikor a kulcslyukba tömött rágót eltávolítja.</td>
+                </tr>
+                <tr>
+                    <td>Exmemoriam</td>
+                    <td>Lockhart professzor felejtés-átka.</td>
+                </tr>
+                <tr>
+                    <td>Expecto patronum</td>
+                    <td>Ezzel a varázsszóval lehet megigézni a patrónust, ami elkergeti a dementorokat.</td>
+                </tr>
+                <tr>
+                    <td>Expelliarmus</td>
+                    <td>Lefegyverző bűbáj. Harry a Trimágus Kupán a pók ellen használta.</td>
+                </tr>
+                <tr>
+                    <td>Evapores</td>
+                    <td>Eltüntető bűbáj.</td>
+                </tr>
+                <tr>
+                    <td>Everti Static</td>
+                    <td>Lefegyverző bűbáj.</td>
+                </tr>
+                <tr>
+                    <td>Ferula</td>
+                    <td>A törött végtagra szoros sínpólya tekeredik.</td>
+                </tr>
+                <tr>
+                    <td>Fidelius</td>
+                    <td>Egy titok mágikus elrejtése egy emberi lélek mélyén (Lilyék használták, Féregfark volt a titokgazda).</td>
+                </tr>
+                <tr>
+                    <td>Finite Incantatem</td>
+                    <td>Más varázslatok megszüntetésére alkalmas igézés.</td>
+                </tr>
+                <tr>
+                    <td>Fixample</td>
+                    <td>Öszeragaszt mindent.</td>
+                </tr>
+                <tr>
+                    <td>Flippendo</td>
+                    <td>Robbantó átok.</td>
+                </tr>
+                <tr>
+                    <td>Globus Igneo</td>
+                    <td>Pálcából tűzgolyó repül ki (igézés).</td>
+                </tr>
+                <tr>
+                    <td>Hessberöpsi tündérmanca</td>
+                    <td>Lockhart elkeseredett próbálkozása a tündérmanók összegyűjtésére.</td>
+                </tr>
+                <tr>
+                    <td>Imber Igneo</td>
+                    <td>Tűzeső keletkezik az áldozat feje fölött. (igézés)</td>
+                </tr>
+                <tr>
+                    <td>Immobilus</td>
+                    <td>Hermione ezzel teszi ártalmatlanná a 2. részben a kelta Tündérmanókat.</td>
+                </tr>
+                <tr>
+                    <td>Imperio</td>
+                    <td>A megátkozott akarata ellenére cselekszik olyat, amit a varázsló kíván. Nagyon nehéz szembeszállni vele. Főbenjáró, tiltott átok. Aki használja, büntetésből egy életre Azkabanba kerül.</td>
+                </tr>
+                <tr>
+                    <td>Incarcerandus</td>
+                    <td>Kötöző bűbáj.</td>
+                </tr>
+                <tr>
+                    <td>Incendio</td>
+                    <td>A Previous Tentacula nevű növény elpusztítására alkalmazható.</td>
+                </tr>
+                <tr>
+                    <td>Invito</td>
+                    <td>Begyűjtő bűbáj: a varázsszó kimondása után a kívánt tárgy a varázsló kezébe repül.</td>
+                </tr>
+                <tr>
+                    <td>Lacarnum, Inflamare</td>
+                    <td>Hermione ezzel gyújtja fel Piton tallárját.</td>
+                </tr>
+                <tr>
+                    <td>Legilimens</td>
+                    <td>Piton használja okklumenciaórán, hogy behatoljon Harry elméjébe.</td>
+                </tr>
+                <tr>
+                    <td>Leperex</td>
+                    <td>A varázslat segítségével bármilyen tárgy vízhatlanná tehető.</td>
+                </tr>
+                <tr>
+                    <td>Locomotor</td>
+                    <td>Lebegtető varázsige.</td>
+                </tr>
+                <tr>
+                    <td>Locomotor mortis</td>
+                    <td>Lábbilincselő átok.</td>
+                </tr>
+                <tr>
+                    <td>Lumos</td>
+                    <td>Fényteremtés: A pálca hegyén apró láng lobban fel.</td>
+                </tr>
+                <tr>
+                    <td>Lumossolen</td>
+                    <td>Erősebb fény.</td>
+                </tr>
+                <tr>
+                    <td>Mimble Wimble</td>
+                    <td>Megakadályozza, hogy az ellenfél kimondja az igét, amit rá akart varázsolni az illetőre.</td>
+                </tr>
+                <tr>
+                    <td>Mobiliarbus</td>
+                    <td>Tárgyak felemelésére szolgál.</td>
+                </tr>
+                <tr>
+                    <td>Mobilicorpus</td>
+                    <td>Testek felemelésére szolgáló varázsige.</td>
+                </tr>
+                <tr>
+                    <td>Morsmordre</td>
+                    <td>A Sötét Jegy megidézésére szolgáló varázslat.</td>
+                </tr>
+                <tr>
+                    <td>Napfény, pitypang, kenderspárga, Legyen ez a patkány sárga!</td>
+                    <td>Ron ezzel a varázsigével akarta Makeszt sárgává változtatni. Persze nem működött... :-)</td>
+                </tr>
+                <tr>
+                    <td>Nox</td>
+                    <td>A fenti varázslat ellentéte: kialszik a láng.</td>
+                </tr>
+                <tr>
+                    <td>"Nyúlhájtyúkszem csinn és bumm, tiszta vízből legyen rum!"</td>
+                    <td>A filmben nem sikerül ez a varázslat, mert a következménye csak egy nagy robbanás.</td>
+                </tr>
+                <tr>
+                    <td>Obstructo</td>
+                    <td>Nagytestű élőlények megbénítására alkalmas varázslat.</td>
+                </tr>
+                <tr>
+                    <td>Oculus reparum</td>
+                    <td>Ezzel meg lehet javítani a törött szemüvegeket.</td>
+                </tr>
+                <tr>
+                    <td>Orchidessis</td>
+                    <td>Virágeső-idézés.</td>
+                </tr>
+                <tr>
+                    <td>Pakolj</td>
+                    <td>Pakoló bűbáj.</td>
+                </tr>
+                <tr>
+                    <td>Petrificus totalus</td>
+                    <td>Sóbálvánnyá változtató átok.</td>
+                </tr>
+                <tr>
+                    <td>Pherecitius mangicus</td>
+                    <td>Fagyasztó átok.</td>
+                </tr>
+                <tr>
+                    <td>Pirocus</td>
+                    <td>Hermione ezzel a bűbájjal rajzol tüzesen égő X-et az ajtóra.</td>
+                </tr>
+                <tr>
+                    <td>Piroinitio</td>
+                    <td>A negyedik részben Mr. Weasley használja, amikor megérkeznek Dursley-ékhez, és hoppanálás közben tönkreteszik a műlángokkal működő kandallót. A varázsige hatására a törmelékek visszamennek a kandallóba, és a (mű)lángok újra felcsapnak.</td>
+                </tr>
+                <tr>
+                    <td>Precepticus viperatus</td>
+                    <td>Ö öldöklö viperát vetni, hajítani az ellenségre. A mardekárosok legkedveltebb lefegyverző bűbája.</td>
+                </tr>
+                <tr>
+                    <td>Priori Incantatem</td>
+                    <td>A bűbáj megmutatja, hogy egy vizsgált varázspálcával milyen varázslatokat hajtottak végre utoljára.</td>
+                </tr>
+                <tr>
+                    <td>Protego</td>
+                    <td>Lefegyverző pajzsbűbáj.</td>
+                </tr>
+                <tr>
+                    <td>Reducio</td>
+                    <td>Baziteo ellentéte: A nagyobb méretűvé varázsolt lény visszanyeri eredeti nagyságát.</td>
+                </tr>
+                <tr>
+                    <td>Reducto</td>
+                    <td>Tárgyak elpusztítására, tarolásra alkalmas bűbáj.</td>
+                </tr>
+                <tr>
+                    <td>Relaxo</td>
+                    <td>A kákalagnak nevezett lények elleni átok (szikraeső).</td>
+                </tr>
+                <tr>
+                    <td>Reparo</td>
+                    <td>Törött üveget helyreállító varázslat.</td>
+                </tr>
+                <tr>
+                    <td>Rictusempra</td>
+                    <td>Csiklandozó bűbáj.</td>
+                </tr>
+                <tr>
+                    <td>Riptusempra</td>
+                    <td>Lefegyverző átok.</td>
+                </tr>
+                <tr>
+                    <td>Serpensortia</td>
+                    <td>Malfoy használja a párbajszakkörön; a pálca hegyéből egy kígyó csúszik elő.</td>
+                </tr>
+                <tr>
+                    <td>Silencio</td>
+                    <td>Némító varázslat (5. könyv).</td>
+                </tr>
+                <tr>
+                    <td>Silentium</td>
+                    <td>A Sonorus ellentéte, normalizálja a beszélő hangját.</td>
+                </tr>
+                <tr>
+                    <td>Sistem a perio</td>
+                    <td>Tom Denem ezel a varázsigével nyitja ki a ládát, melyben Hagrid tárolja Aragogot.</td>
+                </tr>
+                <tr>
+                    <td>Skorge</td>
+                    <td>Slájmtalanító varázslat, elpusztítja az ektoplazmát.</td>
+                </tr>
+                <tr>
+                    <td>Sonorus</td>
+                    <td>A hang felerősítésére szolgáló bűbáj, elsősorban kviddicsmeccsek kommentátorai használják.</td>
+                </tr>
+                <tr>
+                    <td>Spongefly</td>
+                    <td>Szivacsosítóbűbáj, a jelével ellátott szőnyegeken használható, messzebbre, illetve magasabbra lehet ugrani vele.</td>
+                </tr>
+                <tr>
+                    <td>Stimula</td>
+                    <td>Ájult személyek magukhoz térítésére alkalmas varázslat.</td>
+                </tr>
+                <tr>
+                    <td>Stupor</td>
+                    <td>Élőlények elkábítására, ledöntésére szolgáló varázsige.</td>
+                </tr>
+                <tr>
+                    <td>Suvickus</td>
+                    <td>Mosást, szappanozást előidéző bűbáj. Harry az ötödik könyvben látta a merengőben, ahogy apja kimossa Piton száját ezzel a varázslattal.</td>
+                </tr>
+                <tr>
+                    <td>Tájolj</td>
+                    <td>A pálca hegyét észak felé fordítja.</td>
+                </tr>
+                <tr>
+                    <td>Tarantallegra</td>
+                    <td>A megátkozott személy vad táncba kezd.</td>
+                </tr>
+                <tr>
+                    <td>Transportus</td>
+                    <td>Zsupszkulcs készítése valamilyen tárgyból. Dumbledore használja a Főnix Rendjében.</td>
+                </tr>
+                <tr>
+                    <td>Vingardium leviosa</td>
+                    <td>Röptető bűbáj, levitáció.</td>
+                </tr>
+                <tr>
+                    <td>Vipera ivaneska</td>
+                    <td>Piton ezzel tünteti el a kígyót Potter lába elöl.</td>
+                </tr>
+                <tr>
+                    <td>Vitualicus (Vizualicus)</td>
+                    <td>A láthatatlan tintával írt szöveg ismét látható lesz.</td>
+                </tr>
+                <tr>
+                    <td>Volate e stenderya</td>
+                    <td>Tárgyakat lehet vele mozgatni a levegőben.</td>
+                </tr>
+            </table>
+        </div>
+
+        <!--Footer rész-->
+
+        <div class="footer-content" id="footer-szo">
+            <h3>Roxfort Szakiskola</h3>
+            <p>Vegye fel velünk a kapcsolatot:</p>
+            <p><i class="fa fa-phone"></i> +69 420 6969</p>
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/harrypotter" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/harrypotter/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://www.youtube.com/@harrypotter" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="https://twitter.com/harrypotter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            </ul>
+            <a class="teto-gomb mb-4" href="#oldal-teteje">Vissza a tetejére</a>
+            <p>&copy;Copyright 2024: Minden jog fenntartva.</p>
+        </div>
+    </div>
+
+<script src="../js/varazsigek.js"></script>
 </body>
 </html>
