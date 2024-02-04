@@ -1,24 +1,26 @@
-Roxfort Iskola Weboldala
-Bevezetés
+# Roxfort Iskola Varázslói Weboldala 🧙‍♂️✨
 
-Üdvözöllek a Roxfort Varázslók és Boszorkányok Iskolájának hivatalos weboldalán! Ez a weboldal a varázslók és boszorkányok számára készült, akik felkészülnek a varázslói tudományokra és mágikus kalandokra.
-Iskolai Programok
-Tanórák és Képzések
+## Varázsigék
 
-A Roxfort Iskolában számos varázslói tantárgyat kínálunk, beleértve a Bűbájokat, a Boszorkánymesteri Művészeteket, és a Rúnák Olvasását. Kiemelkedő oktatóink és kiváló tanterveink segítenek abban, hogy a diákok mélyebb tudásra tegyenek szert a mágia világában.
-Varázslói Házak
+🔮 *Alohomora!* - Nyisd ki az iskolai kaput!
+📚 *Lumos!* - Világítsd meg a tudást!
+🧹 *Wingardium Leviosa!* - Emeld fel a seprűt és szállj magasra!
 
-A diákokat négy különböző házba soroljuk: Griffendél, Hugrabug, Hollóhát és Mardekár. Minden háznak saját egyedi jellemzői és értékei vannak. A házversenyek izgalmas lehetőséget nyújtanak a diákoknak a csapatmunkára és a varázslói készségeik fejlesztésére.
-Iskolai Élet
-Közösségi Események
+## Iskola Története
 
-A Roxfort rendszeresen szervez különböző eseményeket, mint például a Halloween Bál vagy a Varázslói Kupa. Ezek az események nemcsak szórakoztatók, hanem lehetőséget is teremtenek a diákoknak az együttlétre és új barátságok kialakítására.
-Roxfort Kviddics Csapat
+A Roxfort Iskola a varázslók és boszorkányok számára készült hely, ahol felfedezheted a mágia rejtett titkait. Az iskola több száz éves múltra tekint vissza, és generációk óta képezi ki a tehetséges varázslókat a varázslói tudományok terén.
 
-A Roxfort Kviddics Csapat rendszeresen részt vesz a varázslók világkupáján, és büszkén képviseli az iskolát a pletykászok elleni küzdelemben.
-Kapcsolat
+## Legendás Állatok
 
-Ha további információra van szükséged, vagy szeretnéd felvenni velünk a kapcsolatot, látogasd meg weboldalunkat: 
+🦄 **Einhornok**: A tündéri einhornok a Roxfort kertjeiben élnek, és varázslatos erővel bírnak. Gyakran láthatók a holdfényben szaladgálni.
+
+🐉 **Tűzszárnyú Sárkányok**: Az iskola környékén élő sárkányok különböző tűzszínű lehelettel rendelkeznek. A diákoknak vigyázniuk kell, amikor a közelükbe kerülnek!
+
+🌟 **Fénylő Főnixek**: A Roxfort kertjeiben a fénylő főnixek gyakran jelennek meg, szárnyaikban a megújulás és az örök élet jelképeivel.
+
+Ha kíváncsi vagy további részletekre, látogasd meg weboldalunkat: [Link](janibt.github.io/HarryPotter-Weboldal/)
+
+*Varázslatos tanulmányokkal várunk!* 📜🏰
 
 Üdvözlettel,
 
