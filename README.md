@@ -18,7 +18,7 @@ A Roxfort Iskola a varázslók és boszorkányok számára készült hely, ahol 
 
 🌟 **Fénylő Főnixek**: A Roxfort kertjeiben a fénylő főnixek gyakran jelennek meg, szárnyaikban a megújulás és az örök élet jelképeivel.
 
-Ha kíváncsi vagy további részletekre, látogasd meg weboldalunkat: [Link](janibt.github.io/HarryPotter-Weboldal/)
+Ha kíváncsi vagy további részletekre, látogasd meg weboldalunkat: [Link](https://janibt.github.io/HarryPotter-Weboldal/)
 
 *Varázslatos tanulmányokkal várunk!* 📜🏰
 
